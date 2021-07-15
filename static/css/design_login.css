@@ -1,0 +1,97 @@
+body{
+  background: linear-gradient(rgba(164,148,148, 0.7),rgba(121, 76, 100, 0.7)),url(/static/img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 130vh;
+
+}
+nav{
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+#heading1{
+  position: absolute;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 53px;
+  letter-spacing: 0.2em;
+  width: 396px;
+  height: 126px;
+  left: 641px;
+  top: 100px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+}
+#loginimg{
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  left: 554px;
+  top: 131px;
+
+  background: url(HDLOGO2.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.7));
+  border-radius: 158px;
+}
+
+#login_p1{
+  position: absolute;
+  width: 549px;
+  height: 106px;
+  left: 649px;
+  top: 200px;
+
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.2em;
+}
+
+#form{
+  position: absolute;
+  width: 430px;
+  height: 430px;
+  left: 460px;
+  top: 360px;
+
+}
+
+
+#input_signup{
+  font-family: 'Fuggles', cursive;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+  width: 60px;
+  height: 30px;
+
+  background: rgba(196, 196, 196, 0.34);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  }
+#already{
+  position: absolute;
+  left:140px;
+  top: 180px;
+  font-family: 'Fuggles', cursive;
+  font-family: 'Raleway', sans-serif;
+}
+#table{
+  position: absolute;
+  top:100px;
+}
+#register{
+  font-family: 'Fuggles', cursive;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}

@@ -1,0 +1,69 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static 'css/design_login.css' %}">
+    <link rel="shortcut icon" href="{% static 'img/HDLOGO2.png' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Raleway:ital,wght@0,100;0,400;1,200&display=swap" rel="stylesheet">
+
+    <title>Heaven's Delight-Login</title>
+    {% block content %}
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="{% url 'home' %}">HOME</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav mb-2 mb-lg-0">
+
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'register' %}">REGISTER</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    </header>
+
+
+
+    <h1 id="heading1">HEAVEN'S DELIGHT</h1>
+    <p id="login_p1">Mornings are better with delicious breakfast
+      food and coffee.</p>
+    <img id="loginimg" src="{% static 'img/HDLOGO2.png' %}" alt="">
+
+
+<div class="container" id="form">
+  <form class="container"  method="post">
+    {% csrf_token %}
+    <ul>
+      <div  class="form-row"style="text-align: center;" >
+          {{form.as_p}}
+        </div>
+    </ul>
+    <span id="already">Don't have an Account?<a href="{% url 'register' %}">here</a></span>
+    <button id="input_signup" type="submit" name="button">LOGIN</button>
+  </form>
+</div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+
+  {% endblock %}
+</html>

@@ -1,0 +1,208 @@
+body{
+  background: linear-gradient(rgba(164,148,148, 0.7),rgba(121, 76, 100, 0.7)),url(/static/img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 130vh;
+}
+h1{
+  position: absolute;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 53px;
+  letter-spacing: 0.2em;
+  width: 396px;
+  height: 126px;
+  left: 641px;
+  top: 242px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+}
+
+h2{
+  width: 280px;
+  height: 56px;
+  left: 745px;
+  top: 1008px;
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 56px;
+  letter-spacing: 0.2em;
+  font-family: 'Fuggles', cursive;
+  font-family: 'Raleway', sans-serif;
+
+}
+h3{
+  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.7);
+  position: absolute;
+  color: white;
+  left: 650px;
+  top: 80px;
+}
+h4{
+  position: absolute;
+  width: 549px;
+  height: 106px;
+  left: 688px;
+  top: 280px;
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+}
+
+#image{
+  height: 221px;
+  left: 400px;
+  top: 186px;
+  position: absolute;
+  width: 221px;
+  border-radius: 158px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.7));
+}
+
+#image2{
+  position: absolute;
+  width: 616px;
+  height: 436px;
+  left: 55px;
+  top: 975px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+
+}
+
+#image3{
+  width: 590px;
+  height: 395px;
+  left: 745px;
+  top: 1693px;
+  position: absolute;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+}
+
+#image4{
+  position: absolute;
+  width: 616px;
+  height: 436px;
+  left: 55px;
+  top: 2407px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+}
+#image5{
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  left: 640px;
+  top: 168px;
+}
+#image6{
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 730px;
+  top: 179px;
+
+}
+nav{
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+
+}
+p{
+  position: absolute;
+  width: 549px;
+  height: 106px;
+  left: 640px;
+  top: 363px;
+
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+  letter-spacing: 0.2em;
+}
+#paragraph1{
+  position: absolute;
+  width: 600px;
+  height: 251px;
+  left: 745px;
+  top: 1160px;
+  line-height: 29px;
+  letter-spacing: 0.2em;
+  font-weight: normal;
+  font-size: 25px;
+}
+#paragraph2{
+  position: absolute;
+width: 649px;
+height: 251px;
+left: 55px;
+top: 1810px;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+letter-spacing: 0.2em;
+}
+#paragraph3{
+  position: absolute;
+  width: 600px;
+  height: 251px;
+  left: 745px;
+  top: 2544px;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  letter-spacing: 0.2em;
+}
+
+#title2{
+  width: 239px;
+height: 56px;
+left: 55px;
+top: 1693px;
+position: absolute;
+}
+#title3{
+  position: absolute;
+  width: 310px;
+  height: 56px;
+  left: 745px;
+  top: 2407px;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 56px;
+  letter-spacing: 0.2em;
+}
+
+footer{
+  position: absolute;
+  width: 1349px;
+  height: 399px;
+  left: 0px;
+  top: 3274px;
+
+background: #030303;
+}
+#credits{
+  left: 520px;
+  top: 280px;
+}
+
+
+
+/*LOGIN PAGE*/
+
+.LOGIN_image1{
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  left: 554px;
+  top: 131px;
+
+  background: url(HDLOGO2.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.7));
+  border-radius: 158px;
+}
